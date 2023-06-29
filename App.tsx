@@ -1,9 +1,10 @@
 import {View, ScrollView, StyleSheet, FlatList} from 'react-native';
-import HomeScreen from './src/screens/HomeScreen/HomeScreen';
+import Navigation from './src/components/Navigation';
+
 const App = () => {
   return (
     <View style={styles.container}>
-      <HomeScreen />
+     <Navigation/>
     </View>
   );
 };

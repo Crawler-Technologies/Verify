@@ -1,0 +1,402 @@
+[
+    {
+      "course": "Introduction to Programming",
+      "dateCreated": "2023-06-27",
+      "timeStarted": "09:00:00",
+      "timeEnded": "11:00:00",
+      "attendanceData": [
+        {
+          "name": "John Doe",
+          "level": 100,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0001",
+          "present": true,
+          "timeOfAttendance": "09:10:00"
+        },
+        {
+          "name": "Jane Doe",
+          "level": 100,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0002",
+          "present": true,
+          "timeOfAttendance": "09:07:00"
+        },
+        {
+          "name": "James Smith",
+          "level": 100,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0003",
+          "present": false,
+          "timeOfAttendance": null
+        },
+        {
+          "name": "Jane Smith",
+          "level": 100,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0004",
+          "present": true,
+          "timeOfAttendance": "09:12:00"
+        }
+      ]
+    },
+    {
+      "course": "Data Structures and Algorithms",
+      "dateCreated": "2023-06-27",
+      "timeStarted": "12:00:00",
+      "timeEnded": "14:00:00",
+      "attendanceData": [
+        {
+          "name": "John Doe",
+          "level": 200,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0005",
+          "present": true,
+          "timeOfAttendance": "12:10:00"
+        },
+        {
+          "name": "Jane Doe",
+          "level": 200,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0006",
+          "present": true,
+          "timeOfAttendance": "12:07:00"
+        },
+        {
+          "name": "James Smith",
+          "level": 200,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0007",
+          "present": false,
+          "timeOfAttendance": null
+        },
+        {
+          "name": "Jane Smith",
+          "level": 200,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0008",
+          "present": true,
+          "timeOfAttendance": "12:12:00"
+        }
+      ]
+    },
+    {
+      "course": "Database Systems",
+      "dateCreated": "2023-06-27",
+      "timeStarted": "15:00:00",
+      "timeEnded": "17:00:00",
+      "attendanceData": [
+        {
+          "name": "David Lee",
+          "level": 300,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0009",
+          "present": true,
+          "timeOfAttendance": "15:05:00"
+        },
+        {
+          "name": "Emily Chan",
+          "level": 300,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0010",
+          "present": true,
+          "timeOfAttendance": "15:10:00"
+        },
+        {
+          "name": "Daniel Wong",
+          "level": 300,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0011",
+          "present": false,
+          "timeOfAttendance": null
+        },
+        {
+          "name": "Anna Ng",
+          "level": 300,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0012",
+          "present": true,
+          "timeOfAttendance": "15:15:00"
+        }
+      ]
+    },
+    {
+      "course": "Software Engineering",
+      "dateCreated": "2023-06-27",
+      "timeStarted": "18:00:00",
+      "timeEnded": "20:00:00",
+      "attendanceData": [
+        {
+          "name": "Michael Lee",
+          "level": 400,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0013",
+          "present": true,
+          "timeOfAttendance": "18:05:00"
+        },
+        {
+          "name": "Jennifer Wong",
+          "level": 400,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0014",
+          "present": true,
+          "timeOfAttendance": "18:10:00"
+        },
+        {
+          "name": "Christopher Ng",
+          "level": 400,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0015",
+          "present": false,
+          "timeOfAttendance": null
+        },
+        {
+          "name": "Melissa Chan",
+          "level": 400,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0016",
+          "present": true,
+          "timeOfAttendance": "18:15:00"
+        }
+      ]
+    },
+    {
+      "course": "Operating Systems",
+      "dateCreated": "2023-06-28",
+      "timeStarted": "09:00:00",
+      "timeEnded": "11:00:00",
+      "attendanceData": [
+        {
+          "name": "Andrew Lee",
+          "level": 300,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0017",
+          "present": true,
+          "timeOfAttendance": "09:05:00"
+        },
+        {
+          "name": "Angela Wong",
+          "level": 300,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0018",
+          "present": true,
+          "timeOfAttendance": "09:10:00"
+        },
+        {
+          "name": "Benjamin Chan",
+          "level": 300,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0019",
+          "present": false,
+          "timeOfAttendance": null
+        },
+        {
+          "name": "Catherine Ng",
+          "level": 300,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0020",
+          "present": true,
+          "timeOfAttendance": "09:15:00"
+        }
+      ]
+    },
+    {
+      "course": "Computer Networks",
+      "dateCreated": "2023-06-28",
+      "timeStarted": "12:00:00",
+      "timeEnded": "14:00:00",
+      "attendanceData": [
+        {
+          "name": "David Wong",
+          "level": 400,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0021",
+          "present": true,
+          "timeOfAttendance": "12:05:00"
+        },
+        {
+          "name": "Emily Lee",
+          "level": 400,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0022",
+          "present": true,
+          "timeOfAttendance": "12:10:00"
+        },
+        {
+          "name": "Frank Chan",
+          "level": 400,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0023",
+          "present": false,
+          "timeOfAttendance": null
+        },
+        {
+          "name": "Grace Ng",
+          "level": 400,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0024",
+          "present": true,
+          "timeOfAttendance": "12:15:00"
+        }
+      ]
+    },
+    {
+      "course": "Artificial Intelligence",
+      "dateCreated": "2023-06-28",
+      "timeStarted": "15:00:00",
+      "timeEnded": "17:00:00",
+      "attendanceData": [
+        {
+          "name": "Henry Wong",
+          "level": 500,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0025",
+          "present": true,
+          "timeOfAttendance": "15:05:00"
+        },
+        {
+          "name": "Isabella Ng",
+          "level": 500,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0026",
+          "present": true,
+          "timeOfAttendance": "15:10:00"
+        },
+        {
+          "name": "John Chan",
+          "level": 500,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0027",
+          "present": false,
+          "timeOfAttendance": null
+        },
+        {
+          "name": "Karen Lee",
+          "level": 500,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0028",
+          "present": true,
+          "timeOfAttendance": "15:15:00"
+        }
+      ]
+    },
+    {
+      "course": "Web Development",
+      "dateCreated": "2023-06-28",
+      "timeStarted": "18:00:00",
+      "timeEnded": "20:00:00",
+      "attendanceData": [
+        {
+          "name": "Liam Wong",
+          "level": 200,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0029",
+          "present": true,
+          "timeOfAttendance": "18:05:00"
+        },
+        {
+          "name": "Mia Lee",
+          "level": 200,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0030",
+          "present": true,
+          "timeOfAttendance": "18:10:00"
+        },
+        {
+          "name": "Nathan Chan",
+          "level": 200,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0031",
+          "present": false,
+          "timeOfAttendance": null
+        },
+        {
+          "name": "Olivia Ng",
+          "level": 200,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0032",
+          "present": true,
+          "timeOfAttendance": "18:15:00"
+        }
+      ]
+    },
+    {
+      "course": "Human Computer Interaction",
+      "dateCreated": "2023-06-29",
+      "timeStarted": "09:00:00",
+      "timeEnded": "11:00:00",
+      "attendanceData": [
+        {
+          "name": "Peter Wong",
+          "level": 400,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0033",
+          "present": true,
+          "timeOfAttendance": "09:05:00"
+        },
+        {
+          "name": "Quinn Lee",
+          "level": 400,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0034",
+          "present": true,
+          "timeOfAttendance": "09:10:00"
+        },
+        {
+          "name": "Rachel Chan",
+          "level": 400,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0035",
+          "present": false,
+          "timeOfAttendance": null
+        },
+        {
+          "name": "Steven Ng",
+          "level": 400,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0036",
+          "present": true,
+          "timeOfAttendance": "09:15:00"
+        }
+      ]
+    },
+    {
+      "course": "Computer Graphics",
+      "dateCreated": "2023-06-29",
+      "timeStarted": "12:00:00",
+      "timeEnded": "14:00:00",
+      "attendanceData": [
+        {
+          "name": "Thomas Wong",
+          "level": 500,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0037",
+          "present": true,
+          "timeOfAttendance": "12:05:00"
+        },
+        {
+          "name": "Ursula Lee",
+          "level": 500,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0038",
+          "present": true,
+          "timeOfAttendance": "12:10:00"
+        },
+        {
+          "name": "Victoria Chan",
+          "level": 500,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0039",
+          "present": false,
+          "timeOfAttendance": null
+        },
+        {
+          "name": "William Ng",
+          "level": 500,
+          "department": "Computer Science",
+          "indexNumber": "ps/csc/20/0040",
+          "present": true,
+          "timeOfAttendance": "12:15:00"
+        }
+        ]
+    }
+]

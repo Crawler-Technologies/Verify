@@ -26,3 +26,25 @@ export interface IComment {
   comment: string;
   user: IUser;
 }
+
+export interface IExamAttendance {
+  course: string;
+  dateCreated: string;
+  timeStarted: string;
+  timeEnded: string;
+  attendanceData: IAttendanceData[];
+}
+
+export interface IAttendanceData {
+  name: string;
+  level: number;
+  department: string;
+  indexNumber: string;
+  present: boolean;
+}
+
+export interface INotification{
+  event:string,
+  message:string,
+
+}

@@ -1,22 +1,29 @@
-import {
-  View,
-  ScrollView,
-  Text,
-  StyleSheet,
-  Pressable,
-  StatusBar,
-} from 'react-native';
-import style from './styles';
-import colors from '../../theme/colors';
 import {useState} from 'react';
+import {View, Text, Pressable, StatusBar, FlatList} from 'react-native';
 import SearchField from '../../components/SearchField';
 import ActiveAttendanceCard from '../../components/ActiveAttendanceCard';
+import FloatingActionButton from '../../components/FloatingActionButton';
+import ModalContainer from '../../components/Modal';
+
+import style from './styles';
+import colors from '../../theme/colors';
+import records from '../../assets/data/records.json';
+import TextField from '../../components/TextField';
 
 const HomeScreen = () => {
   const [selectedTab, setSelectedTab] = useState('active');
+  const [isModalOpened, setIsModalOpened] = useState(false);
+
+  const onAddAttendance = () => {
+    setIsModalOpened(true);
+  };
   return (
     <View style={style.container}>
-      <StatusBar barStyle="dark-content" backgroundColor="#fff" translucent />
+      <StatusBar
+        barStyle="dark-content"
+        backgroundColor="transparent"
+        translucent
+      />
       <View style={style.headerContainer}>
         <Text style={style.welcomeText}>Welcome Back</Text>
         <View style={style.tabContainer}>
@@ -52,9 +59,19 @@ const HomeScreen = () => {
         </View>
       </View>
       <View style={style.content}>
-        <ActiveAttendanceCard />
-        <ActiveAttendanceCard />
+        <FlatList
+          data={records}
+          keyExtractor={(item, index) => index.toString()}
+          renderItem={({item}) => <ActiveAttendanceCard data={item} />}
+        />
       </View>
+      <ModalContainer
+        showModal={isModalOpened}
+        onRequestClose={() => setIsModalOpened(false)}
+        children={<TextField placeholder="12345678" />}
+        showMask={isModalOpened}
+      />
+      <FloatingActionButton onPress={onAddAttendance} bottom={42} right={20} />
     </View>
   );
 };

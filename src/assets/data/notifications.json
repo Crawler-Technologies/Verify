@@ -1,0 +1,18 @@
+[
+    {
+      "event": "New Access",
+      "message": "John Doe has requested access to the attendance for Introduction to Programming on 2023-06-27 at 09:00:00."
+    },
+    {
+      "event": "Early Departure",
+      "message": "Jane Doe left the attendance for Data Structures and Algorithms on 2023-06-27 at 13:30:00."
+    },
+    {
+      "event": "Time's Up!",
+      "message": "Your attendance for Database Systems on 2023-06-27 at 15:00:00 has been recorded."
+    },
+    {
+      "event": "Attendance Cancellation",
+      "message": "The attendance for Introduction to Programming on 2023-06-27 at 09:00:00 has been cancelled."
+    }
+  ]

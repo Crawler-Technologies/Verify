@@ -6,7 +6,10 @@ const colors = {
   lightGrey: '#71727A',
   accent: '#ed4956',
   lightBlue:'#E7F0F8',
+  mediumBlue:'#468FC8',
   cream:'#F6F6F6',
+  inActive:'#9DC5E5',
+  ActiveLabel:'#1F2024',
 };
 
 export default colors;

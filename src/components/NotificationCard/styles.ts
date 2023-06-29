@@ -7,12 +7,12 @@ const styles = StyleSheet.create({
     backgroundColor: colors.white,
     borderRadius: 16,
     width: 350,
-    height: 102,
+    height: 75,
     paddingHorizontal: 16,
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between',
-    marginTop: 16,
+    justifyContent:'space-between',
+    marginTop:16,
   },
   button: {
     borderRadius: 8,
@@ -35,21 +35,9 @@ const styles = StyleSheet.create({
     fontWeight: weight.normal,
     fontSize: 14,
   },
-  timer: {
-    height: 70,
-    width: 40,
-    marginRight: 16,
-  },
-  remainingTime: {
-    color: colors.black,
-    fontSize: size.sm,
-    fontWeight: weight.bold,
-  },
-  remainingTimeFormat: {
-    color: colors.black,
-    fontSize: size.xs,
-    textAlign: 'center',
-  },
+  icon:{
+    marginRight:16,
+  }
 });
 
 export default styles;
