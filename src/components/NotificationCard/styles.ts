@@ -6,13 +6,12 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: colors.white,
     borderRadius: 16,
-    width: 350,
     height: 75,
     paddingHorizontal: 16,
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent:'space-between',
-    marginTop:16,
+    justifyContent: 'space-between',
+    marginTop: 16,
   },
   button: {
     borderRadius: 8,
@@ -35,9 +34,9 @@ const styles = StyleSheet.create({
     fontWeight: weight.normal,
     fontSize: 14,
   },
-  icon:{
-    marginRight:16,
-  }
+  icon: {
+    marginRight: 16,
+  },
 });
 
 export default styles;

@@ -10,6 +10,8 @@ const colors = {
   cream:'#F6F6F6',
   inActive:'#9DC5E5',
   ActiveLabel:'#1F2024',
+  successLight:'#E7F4E8',
+  errorLight:'#FFE2E5',
 };
 
 export default colors;

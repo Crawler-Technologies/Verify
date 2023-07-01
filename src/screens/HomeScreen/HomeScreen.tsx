@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import {View, Text, Pressable, StatusBar, FlatList} from 'react-native';
 import SearchField from '../../components/SearchField';
-import ActiveAttendanceCard from '../../components/ActiveAttendanceCard';
+import ActiveAttendanceCard from '../../components/AttendanceCard';
 import FloatingActionButton from '../../components/FloatingActionButton';
 import ModalContainer from '../../components/Modal';
 
@@ -15,7 +15,8 @@ const HomeScreen = () => {
   const [isModalOpened, setIsModalOpened] = useState(false);
 
   const onAddAttendance = () => {
-    setIsModalOpened(true);
+    setIsModalOpened(!isModalOpened);
+    console.log('Add attendance');
   };
   return (
     <View style={style.container}>
@@ -61,17 +62,22 @@ const HomeScreen = () => {
       <View style={style.content}>
         <FlatList
           data={records}
-          keyExtractor={(item, index) => index.toString()}
+          // keyExtractor={(item, index) => index.toString()}
           renderItem={({item}) => <ActiveAttendanceCard data={item} />}
         />
       </View>
-      <ModalContainer
-        showModal={isModalOpened}
-        onRequestClose={() => setIsModalOpened(false)}
-        children={<TextField placeholder="12345678" />}
-        showMask={isModalOpened}
-      />
-      <FloatingActionButton onPress={onAddAttendance} bottom={42} right={20} />
+      <FloatingActionButton onPress={onAddAttendance} />
+      <ModalContainer visible={isModalOpened} onRequestClose={onAddAttendance} showMask={false}>
+        <View style={{padding: 20}}>
+          <Text style={{fontSize: 20, fontWeight: 'bold', marginBottom: 20}}>
+            Add Attendance
+          </Text>
+          <TextField placeholder="Course" />
+          <TextField placeholder="Level" />
+          <TextField placeholder="Time" />
+          <TextField placeholder="Date" />
+        </View>
+      </ModalContainer>
     </View>
   );
 };

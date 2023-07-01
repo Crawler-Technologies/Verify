@@ -48,3 +48,14 @@ export interface INotification{
   message:string,
 
 }
+
+export interface IStudent{
+  department:string;
+  level:string;
+  indexNumber:string;
+  name:string;
+  present:boolean;
+  id:string;
+  timeOfAttendance:string;
+
+}

@@ -4,30 +4,30 @@ import colors from '../../theme/colors';
 
 
 interface IModalContainer {
-  showModal: boolean;
+  visible: boolean;
   children?: ReactNode;
   onRequestClose?: () => void;
   showMask: boolean;
 }
 
 const ModalContainer = ({
-  showModal,
+  showMask,
   children,
   onRequestClose,
-  showMask,
+ visible,
 }: IModalContainer) => {
-  let mask = typeof showMask !== 'undefined' ? showMask : true;
+  // let mask = typeof showMask !== 'undefined' ? showMask : true;
   return (
     <Modal
       animationType="slide"
       statusBarTranslucent
       transparent
-      visible={showModal}
+      visible={visible}
       onRequestClose={onRequestClose}>
       <View
         style={[
           styles.container,
-          {backgroundColor: mask ? 'rgba(0,0,0,0.3)' : 'transparent'},
+          {backgroundColor: showMask? 'rgba(0,0,0,0.3)' : 'transparent'},
         ]}>
         <View style={styles.children}>
           <View style={styles.notch} />

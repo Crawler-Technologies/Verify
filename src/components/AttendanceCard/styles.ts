@@ -6,7 +6,6 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: colors.white,
     borderRadius: 16,
-    width: 350,
     height: 102,
     paddingHorizontal: 16,
     flexDirection: 'row',
@@ -36,7 +35,6 @@ const styles = StyleSheet.create({
     fontSize: 14,
   },
   timer: {
-    height: 70,
     width: 40,
     marginRight: 16,
   },
