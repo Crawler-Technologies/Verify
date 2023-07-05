@@ -66,8 +66,8 @@ const HomeScreen = () => {
           renderItem={({item}) => <ActiveAttendanceCard data={item} />}
         />
       </View>
-      <FloatingActionButton onPress={onAddAttendance} />
-      <ModalContainer visible={isModalOpened} onRequestClose={onAddAttendance} showMask={false}>
+      {/* <FloatingActionButton onPress={onAddAttendance} /> */}
+      {/* <ModalContainer visible={isModalOpened} onRequestClose={onAddAttendance} showMask={false}>
         <View style={{padding: 20}}>
           <Text style={{fontSize: 20, fontWeight: 'bold', marginBottom: 20}}>
             Add Attendance
@@ -77,7 +77,7 @@ const HomeScreen = () => {
           <TextField placeholder="Time" />
           <TextField placeholder="Date" />
         </View>
-      </ModalContainer>
+      </ModalContainer> */}
     </View>
   );
 };
